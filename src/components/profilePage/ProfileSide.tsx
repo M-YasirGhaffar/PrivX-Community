@@ -132,7 +132,7 @@ function ProfileSide({}: Props) {
         </Flex>
       </Flex>
       <Text fontWeight="bold" fontSize="8pt" textAlign="center">
-        r/{user?.email}
+        x/{user?.email}
       </Text>
       <Button
         width={80}

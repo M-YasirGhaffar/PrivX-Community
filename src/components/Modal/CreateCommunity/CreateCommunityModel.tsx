@@ -84,7 +84,7 @@ const CreateCommunityModel: React.FC<CreateCommunityModelProps> = ({
         const communityDoc = await transaction.get(communityDocRef);
         if (communityDoc.exists()) {
           throw new Error(
-            `Sorry, r/${CommunitiesName} is MdTakeoutDining. Try Another`
+            `Sorry, x/${CommunitiesName} is MdTakeoutDining. Try Another`
           );
           return;
         }
