@@ -67,6 +67,7 @@ const Login: React.FC<LoginProps> = () => {
         type="password"
         mb={2}
         onChange={onChange}
+        minLength={8}
         fontSize="10pt"
         _placeholder={{ color: placeholderColor }}
         _hover={{
@@ -81,7 +82,6 @@ const Login: React.FC<LoginProps> = () => {
           borderColor: searchBorder,
         }}
         bg={inputBg}
-        minLength={8}
       />
       <Text textAlign="center" color="red" fontSize="10pt">
         {FIREBASE_ERRORS[error?.message as keyof typeof FIREBASE_ERRORS]}

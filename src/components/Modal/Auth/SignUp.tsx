@@ -91,6 +91,7 @@ const SignUp: React.FC = () => {
         type="password"
         mb={2}
         onChange={onChange}
+        minLength={8}
         fontSize="10pt"
         _placeholder={{ color: placeholderColor }}
         _hover={{
@@ -104,7 +105,6 @@ const SignUp: React.FC = () => {
           border: "1px solid",
           borderColor: searchBorder,
         }}
-        minLength={8}
         bg={inputBg}
       />
 
@@ -115,6 +115,7 @@ const SignUp: React.FC = () => {
         type="password"
         mb={2}
         onChange={onChange}
+        minLength={8}
         fontSize="10pt"
         _placeholder={{ color: placeholderColor }}
         _hover={{
