@@ -172,7 +172,7 @@ const CreateCommunityModel: React.FC<CreateCommunityModelProps> = ({
                 width="20px"
                 color="gray.400"
               >
-                r/
+                x/
               </Text>
               <Input
                 position="relative"
