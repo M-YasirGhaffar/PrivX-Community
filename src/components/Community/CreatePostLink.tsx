@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { BsLink45Deg } from "react-icons/bs";
-// import { FaReddit } from "react-icons/fa";
 // import { SiPrivateinternetaccess } from "react-icons/si";
 // import { IoShareSocialSharp } from "react-icons/io5";
 import { IoShareSocialOutline } from "react-icons/io5";
@@ -62,7 +61,6 @@ const CreatePostLink: React.FC = () => {
       p={2}
       mb={4}
     >
-      {/* <Icon as={FaReddit} fontSize={36} color="gray.300" mr={4} /> */}
       <Icon as={IoShareSocialOutline} fontSize={36} color="gray.300" mr={4} />
 
       <Input

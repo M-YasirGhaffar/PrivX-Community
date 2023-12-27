@@ -1,6 +1,5 @@
 import { Flex, Stack, Text } from "@chakra-ui/react";
 import { User } from "firebase/auth";
-// import { IoLogoReddit } from "react-icons/io5";
 // import { RiWechatChannelsLine } from "react-icons/ri";
 import { FaGhost } from "react-icons/fa";
 

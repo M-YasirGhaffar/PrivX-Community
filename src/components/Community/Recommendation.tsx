@@ -14,9 +14,7 @@ import { collection, getDocs, orderBy, query } from "firebase/firestore";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
-// import { FaReddit } from "react-icons/fa";
 import { MdOutlineSocialDistance } from "react-icons/md";
-
 
 import { Community } from "../../atoms/CommunitiesAtom";
 import { firestore } from "../../firebase/clientApp";

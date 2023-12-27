@@ -9,7 +9,6 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { Community } from "../../atoms/CommunitiesAtom";
-// import { FaReddit } from "react-icons/fa";
 import { TbSocial } from "react-icons/tb";
 import { MdOutlineSocialDistance } from "react-icons/md";
 
